@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Raman_V1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="education_description">Raman Group started working by holding preparation exams in Olympiad and National University Entrance Exam.</string>
+    <string name="accelerator_description">We founded Raman Accelerator unit and it\'s office at Tehran University as oldest and most reliable university in Iran.</string>
+    <string name="international_description">Raman Group has great scientific and educational projects in International level as well as our national projects.</string>
+    <string name="scientific_description">One of our important scientific projects is Great Herbal Project. One of the biggest projects in the field of herbal medicine is now running under the supervision of pharmacy and herbal medicine experts in Raman Group.</string>
+    <string name="network_description">Our experts in Computer Science and Engineering are trying to develop web based applications to connect students and people who need help in different fields.</string>
+</resources>

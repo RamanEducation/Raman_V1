@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/accelerator"
+        android:enabled="true"
+        android:icon="@drawable/accelerator"
+        android:title="accelerator"/>
+    <item
+        android:id="@+id/international"
+        android:enabled="true"
+        android:icon="@drawable/international"
+        android:title="international"/>
+    <item
+        android:id="@+id/education"
+        android:enabled="true"
+        android:icon="@drawable/education"
+        android:title="education"/>
+    <item
+        android:id="@+id/meetings"
+        android:enabled="true"
+        android:icon="@drawable/online"
+        android:title="meetings"/>
+    <item
+        android:id="@+id/website"
+        android:enabled="true"
+        android:icon="@drawable/website"
+        android:title="website"/>
+</menu>
+
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</menu>-->

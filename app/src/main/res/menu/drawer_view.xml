@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:id="@+id/group2">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/raman_logo_circle"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/raman_logo_circle"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/raman_logo_circle"
+            android:title="Contact" />
+    </group>
+<!--        <item android:title="">  &lt;!&ndash; android:title="Title 1" &ndash;&gt;-->
+        <group android:id="@+id/group1">
+
+                        <item android:id="@+id/nav_item_six"
+                            android:icon="@drawable/raman_logo_circle"
+                            android:title="Support" />
+                        <item android:id="@+id/nav_item_seven"
+                            android:icon="@drawable/raman_logo_circle"
+                            android:title="About Us" />
+
+        </group>
+<!--        </item>-->
+
+</menu>
