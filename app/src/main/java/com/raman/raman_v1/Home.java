@@ -18,13 +18,35 @@ public class Home extends AppCompatActivity {
     }
 
     private void cardListening(){
-        CardView card_view_education = (CardView) findViewById(R.id.card_view_education);
-        card_view_education.setOnClickListener(new View.OnClickListener() {
+        CardView card_view_accelerator = (CardView) findViewById(R.id.card_view_accelerator);
+        card_view_accelerator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MainBar.fragmentEnum = MainBar.FragmentEnum.ACCELERATION;
                 startActivity(new Intent(Home.this, MainBar.class));
                 finish();
             }
         });
+
+        CardView card_view_international = (CardView) findViewById(R.id.card_view_international);
+        card_view_international.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainBar.fragmentEnum = MainBar.FragmentEnum.INTERNATIONAL;
+                startActivity(new Intent(Home.this, MainBar.class));
+                finish();
+            }
+        });
+
+        CardView card_view_education = (CardView) findViewById(R.id.card_view_education);
+        card_view_education.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainBar.fragmentEnum = MainBar.FragmentEnum.EDUCTION;
+                startActivity(new Intent(Home.this, MainBar.class));
+                finish();
+            }
+        });
+
     }
 }

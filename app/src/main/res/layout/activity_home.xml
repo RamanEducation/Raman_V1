@@ -55,7 +55,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fillViewport="false"
-        android:layout_marginTop="35dp">
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="16dp">
 
         <LinearLayout
             android:orientation="vertical"

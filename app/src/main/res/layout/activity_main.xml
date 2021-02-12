@@ -25,8 +25,8 @@
         android:gravity="center">
 
         <ImageView
-            android:layout_width="124dp"
-            android:layout_height="124dp"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
             android:src="@drawable/raman_logo_circle"
             android:id="@+id/Logo"
             android:layout_gravity="center"

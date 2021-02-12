@@ -30,6 +30,15 @@ public class MainBar extends AppCompatActivity {
     // Make sure to be using androidx.appcompat.app.ActionBarDrawerToggle version.
     private ActionBarDrawerToggle drawerToggle;
 
+    enum FragmentEnum {
+        ACCELERATION,
+        INTERNATIONAL,
+        EDUCTION,
+        MEETING,
+        WEBSITE
+    }
+
+    public static FragmentEnum fragmentEnum = FragmentEnum.ACCELERATION;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +53,18 @@ public class MainBar extends AppCompatActivity {
 
         FragmentManager fm = getSupportFragmentManager();
         final FragmentTransaction transaction = fm.beginTransaction();
-        transaction.replace(R.id.frag, acceleratorFrag).commit();
+
+        if(fragmentEnum == FragmentEnum.ACCELERATION) {
+            transaction.replace(R.id.frag, acceleratorFrag).commit();
+        } else if(fragmentEnum == FragmentEnum.INTERNATIONAL) {
+            transaction.replace(R.id.frag, internationalFrag).commit();
+        } if(fragmentEnum == FragmentEnum.EDUCTION) {
+            transaction.replace(R.id.frag, educationFrag).commit();
+        } if(fragmentEnum == FragmentEnum.MEETING) {
+            transaction.replace(R.id.frag, meetingFrag).commit();
+        } if(fragmentEnum == FragmentEnum.WEBSITE) {
+            transaction.replace(R.id.frag, websiteFrag).commit();
+        }
 
         final TextView title = (TextView) findViewById(R.id.activityTitle);
         ImageView imageTitle = (ImageView) findViewById(R.id.activityImageTitle);
